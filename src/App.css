@@ -1,0 +1,12 @@
+.nav-wrapper{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #1B4242;
+}
+
+.link{
+    color: #9EC8B9;
+    text-decoration: none;
+}

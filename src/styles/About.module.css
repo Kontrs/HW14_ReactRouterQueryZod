@@ -1,0 +1,31 @@
+.textWrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.textHeading{
+  margin: 0;
+  padding: 20px 0;
+}
+
+.textParagraph{
+  margin: 0;
+  padding: 10px 0;
+  line-height: 1.5;
+}
+
+.arrowDown{
+  font-size: 100px;
+}
+
+.socialWrapper{
+  display: flex;
+  background-color: #9EC8B9;
+  padding: 25px 25px;
+  border-radius: 25px;
+  justify-content: center;
+  align-self: center;
+  gap: 40px;
+}
+

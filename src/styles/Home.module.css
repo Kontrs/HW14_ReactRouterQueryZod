@@ -1,0 +1,45 @@
+.textWrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.textHeading{
+  margin: 0;
+  padding: 20px 0;
+}
+
+.textParagraph{
+  margin: 0;
+  padding: 10px 0;
+}
+
+.imageWrapper{
+  display: flex;
+  gap: 40px;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.image1{
+  border: 5px solid #5C8374;
+  border-radius: 20px;
+  width: 100%;
+  aspect-ratio: 612 / 408;
+}
+
+.image2{
+  border: 5px solid #5C8374;
+  border-radius: 20px;
+  width: 100%;
+  aspect-ratio: 800 / 600;
+}
+
+.image3{
+  border: 5px solid #5C8374;
+  border-radius: 20px;
+  width: 100%;
+  aspect-ratio: 600 / 400;
+}
+

@@ -1,0 +1,145 @@
+.cardWrapper{
+  display: flex;
+  gap: 40px;
+  padding: 60px 60px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  border: 3px solid #5C8374;
+  border-radius: 10px;
+  align-items: center;
+  background-color: #1B4242;
+  padding: 20px 20px;
+  max-width: 600px;
+}
+
+.cardImage{
+  border-radius: 10px;
+  aspect-ratio: 16/9;
+  width: 555px;
+}
+
+.cardTitle{
+  margin: 0;
+  font-size: 45px;
+  padding-top: 10px;
+}
+
+.cardGenre{
+  margin: 0;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.cardDescription{
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.cardRating{
+  display: flex;
+  color: #092635;
+  gap: 10px;
+  font-size: 1.5em;
+  padding-bottom: 15px;
+  margin-top: auto;
+}
+
+.buttonWrapper{
+  margin-top: auto;
+}
+
+.button{
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  background-color: #5C8374;
+  color: #092635;
+  cursor: pointer;
+  width: 100%;
+  font-size: 30px;
+    &:hover{
+      background-color: #507265;
+    }
+}
+
+/* Form CSS */
+
+.inputWrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  border: 3px solid #5C8374;
+  padding: 20px 25px;
+  border-radius: 10px;
+  background-color: #1B4242;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.inputHeading{
+  font-size: 50px;
+  margin: 0;
+}
+
+.input{
+  display: flex;
+  flex-grow: 1;
+  border-radius: 5px;
+  padding: 15px 20px;
+  border: none;
+  font-size: 20px;
+  background-color: #092635;
+  color: #5C8374;
+  width: 100%;
+  max-width: 555px;
+  &::placeholder {
+    color: #5C8374;
+    font-size: 20px;
+  }
+}
+
+form textarea{
+  resize: vertical;
+}
+
+.inputRating {
+  border: none;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.inputRating > label {
+  color: #5C8374;
+  float: right;
+}
+
+.inputRating > label:before {
+  margin: 5px;
+  font-size: 1.5em;
+  font-family: 'FontAwesome';
+  content: "\f005";
+  display: inline-block;
+}
+
+.inputRating > input {
+  display: none;
+}
+
+.inputRating > input:checked ~ label,
+.inputRating:not(:checked) > label:hover,
+.inputRating:not(:checked) > label:hover ~ label {
+  color: #092635;
+}
+
+.inputRating:required{
+  border: 2px solid red;
+}
