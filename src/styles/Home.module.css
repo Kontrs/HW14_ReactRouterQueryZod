@@ -7,12 +7,12 @@
 
 .textHeading{
   margin: 0;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .textParagraph{
   margin: 0;
-  padding: 10px 0;
+  padding: 6px 0;
 }
 
 .imageWrapper{
@@ -20,26 +20,30 @@
   gap: 40px;
   padding: 20px 40px;
   align-items: center;
+  justify-content: center; 
 }
 
 .image1{
   border: 5px solid #5C8374;
   border-radius: 20px;
-  width: 100%;
-  aspect-ratio: 612 / 408;
+  max-width: 450px;
+  aspect-ratio: 306 / 204;
+  flex-shrink: 1;
 }
 
 .image2{
   border: 5px solid #5C8374;
   border-radius: 20px;
-  width: 100%;
-  aspect-ratio: 800 / 600;
+  max-width: 450px;
+  aspect-ratio: 400 / 300;
+  flex-shrink: 1;
 }
 
 .image3{
   border: 5px solid #5C8374;
   border-radius: 20px;
-  width: 100%;
-  aspect-ratio: 600 / 400;
+  max-width: 450px;
+  aspect-ratio: 300 / 200;
+  flex-shrink: 1;
 }
 

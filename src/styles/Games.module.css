@@ -1,7 +1,19 @@
+.loadingOrError{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.gameWrapper{
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+}
+
 .cardWrapper{
   display: flex;
   gap: 40px;
-  padding: 60px 60px;
+  padding: 20px 0;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -15,32 +27,44 @@
   align-items: center;
   background-color: #1B4242;
   padding: 20px 20px;
-  max-width: 600px;
+  max-width: 400px;
+  word-break: break-all;
+  white-space: normal;
+  text-decoration: none;
+  color: inherit; 
 }
 
 .cardImage{
   border-radius: 10px;
   aspect-ratio: 16/9;
-  width: 555px;
+  width: 355px;
 }
 
 .cardTitle{
   margin: 0;
-  font-size: 45px;
+  font-size: 25px;
   padding-top: 10px;
 }
 
 .cardGenre{
   margin: 0;
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 10px;
 }
 
 .cardDescription{
   margin: 0;
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
   padding-bottom: 15px;
+ 
+}
+
+.ratingAndButton{
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  gap: 20px;
 }
 
 .cardRating{
@@ -48,7 +72,6 @@
   color: #092635;
   gap: 10px;
   font-size: 1.5em;
-  padding-bottom: 15px;
   margin-top: auto;
 }
 
@@ -64,7 +87,7 @@
   color: #092635;
   cursor: pointer;
   width: 100%;
-  font-size: 30px;
+  font-size: 20px;
     &:hover{
       background-color: #507265;
     }
@@ -81,13 +104,19 @@
   padding: 20px 25px;
   border-radius: 10px;
   background-color: #1B4242;
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 400px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .inputHeading{
-  font-size: 50px;
+  font-size: 30px;
   margin: 0;
+}
+
+.inputLabel{
+  font-size: 18px;
 }
 
 .input{
@@ -109,12 +138,13 @@
 
 form textarea{
   resize: vertical;
+  min-height: 53px;
 }
 
 .inputRating {
   border: none;
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .inputRating > label {
@@ -138,8 +168,4 @@ form textarea{
 .inputRating:not(:checked) > label:hover,
 .inputRating:not(:checked) > label:hover ~ label {
   color: #092635;
-}
-
-.inputRating:required{
-  border: 2px solid red;
 }

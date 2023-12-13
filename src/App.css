@@ -2,8 +2,9 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-    padding: 40px 0;
+    padding: 25px 0;
     background-color: #1B4242;
+    font-size: 25px;
 }
 
 .link{
