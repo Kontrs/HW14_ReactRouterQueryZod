@@ -14,19 +14,19 @@ export const About = () => {
         <p className={styles.arrowDown}>↓</p>
         <div className={styles.socialWrapper}>
           <a href="https://github.com/Kontrs" target='_blank'>
-            <img src="public/images/github.png" alt="github" />
+            <img src="public/github.png" alt="github" />
           </a>
           <a href="https://www.facebook.com/kristers.pulle" target='_blank'>
-            <img src="public/images/facebook.png" alt="facebook" />
+            <img src="public/facebook.png" alt="facebook" />
           </a>
           <a href="mailto:pulle265@gmail.com" target='_blank'>
-            <img src="public/images/google.png" alt="google" />
+            <img src="public/google.png" alt="google" />
           </a>
           <a href="https://www.instagram.com/kontrsk/" target='_blank'>
-            <img src="public/images/instagram.png" alt="instagram" />
+            <img src="public/instagram.png" alt="instagram" />
           </a>
           <a href="https://www.reddit.com/user/KontrsK" target='_blank'>
-            <img src="public/images/reddit.png" alt="reddit" />
+            <img src="public/reddit.png" alt="reddit" />
           </a>
         </div>
       </div>
